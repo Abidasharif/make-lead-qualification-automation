@@ -8,3 +8,7 @@ An automated pipeline built on **Make.com** that processes incoming Excel leads,
 - **Path B (Qualified Leads):** Uses `AND` logic to filter high-value leads (USA location + Budget ≥ $10,000), triggers a rich Slack notification message, and sets the status to `Qualified`.
 - **Path C (Not Qualified Leads):** Handles completed rows that fall below thresholds, marking them `Not Qualified` without pinging Slack.
 - **Graceful Error Handling:** Employs `Skip` error directives on core API modules to ensure minor network drops do not crash the runner loop.
+
+## 📺 Project Walkthrough Video
+
+you can access the video directly [via this link](https://www.youtube.com/watch?v=l6JYMMDxClI).*
